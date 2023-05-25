@@ -1,0 +1,19 @@
+*{
+  max-width: 100%;
+  box-sizing: border-box;
+  margin: none;
+  padding: none;
+}
+
+@media only screen and (max-width: 799px){
+
+  .news-container{
+    grid-template-columns: 350px !important;
+  }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1250px){
+  .news-container{
+    grid-template-columns: 350px 350px !important;
+  }
+}
