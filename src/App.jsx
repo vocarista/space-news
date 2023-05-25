@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import './App.css'
-import Article from './components/article'
+import Article from './components/Article'
 
 function App() {
   const [newsList, setNewsList] = useState([])
