@@ -5,7 +5,7 @@ function Article(props) {
     const { key, news } = props
     const { title, url, imageUrl, summary, publishedAt, newsSite } = news
     return (
-        <div className = "article flex flex-col place-items-center w-[400px] h-[600px] border-2 border-slate-950 hover:shadow-xl hover:shadow-slate-950 ease duration-100 bg-white">
+        <div className = "article flex flex-col place-items-center w-[400px] h-[600px] border-2 border-slate-950 hover:shadow-xl hover:shadow-slate-950 ease duration-150 bg-white">
             <img className = "w-[400px] h-[225px] object-cover" src= { imageUrl } />
             <h1 className = "font-bold p-3 text-2xl">{ title }</h1>
             <p className = "text-slate-500 font-thin">{ newsSite + " | " + publishedAt.slice(0,10) }</p>
